@@ -18,6 +18,7 @@
 		background: #008499;
 		box-shadow: 0 5px 20px black;
 		border: 1px solid #d8d8d8;
+		z-index: 10;
 	}
 	.soc-menu li {
 		float: none;
@@ -52,6 +53,7 @@
 		background: #008499;
 		box-shadow: 0 5px 20px black;
 		border: 1px solid #d8d8d8;
+		z-index: 10
 	}
 	.menu-left .pnk {
 		border: none;
@@ -59,12 +61,12 @@
 		display:block;
 		width: 150px;						
 	}
-	.menu-left.pnk>a{
+	.menu-left .pnk>a{
 		display: block;
 		padding-top: 15px;
 
 	}
-	.menu-left.pnk:hover {
+	.menu-left .pnk:hover {
 		padding-top: 0;
 		border-bottom: 0px;
 		border-right: 4px solid;
