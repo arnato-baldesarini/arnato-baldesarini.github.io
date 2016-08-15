@@ -9,6 +9,12 @@ $(document).ready(function() {
 	$('.ab').on('click', function(){
 		$('.menu-left').slideToggle();
 	});
+
+	$('.a_ab').on('click', function(){	
+		$('.news-header').display!='none';
+	});
+
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
