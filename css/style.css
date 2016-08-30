@@ -1,3 +1,203 @@
-.pole-1 {
-	background: #fce17e;
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+.main_menu {
+	height: 80px;
+	background: url(../svg/fon.svg);	
+	padding: 0;
+	box-shadow:  0 0 10px black;
+	width: 100%;
+	display: table;
+	position: relative;
+	z-index: 5;
+}
+body {
+	font-family: 'Comfortaa';
+	font-size: 16px;
+	background-color: #31859c;
+}
+.menu-left {
+	float: left;
+	display: table-cell;
+	padding: 0;
+}
+.menu-left>ul{
+	padding: 0;
+}
+
+.menu-right {
+	float: right;
+	padding: 0;
+	display: table-cell;
+}
+.menu-right>ul{
+	padding: 0;
+}
+.logo {
+	display: table-cell;
+	height: 80px;
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+}
+.logo>a {
+	padding: 0;
+}
+
+.menu li{
+	display: table;
+	float: left;	
+	padding: 0;
+}
+.menu li>a{
+	display: table-cell;
+	height: 80px;
+	width: 90px;
+	text-transform: uppercase;	
+	text-align: center;
+	vertical-align: middle;
+	color: #d8d8d8;
+    transition: 0.3s;
+}
+.menu li>a:hover {
+	text-decoration: none;
+	color: gold;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	border-bottom: 1px solid gold;
+}
+.menu-right li>a{	
+	width: auto;
+	padding: 0 5px;
+}
+.glyphicon{
+	padding: 0 8px;
+}
+/*CSS карусельки*/
+.owl-item {
+    display: table-cell;
+    text-align: center;    
+}
+
+.item img{
+    width: auto;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+}
+.next_button, .prev_button{
+	color: #d8d8d8;;
+	font-size: 46px;
+	position: absolute;
+	z-index: 5;
+	top: 220px;
+	cursor: pointer;
+    transition: 0.5s;
+}
+.next_button {
+	right: 20px;
+}
+.prev_button {
+	left: 20px;
+}
+.next_button:hover, .prev_button:hover{
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.contents {
+	background: url(../svg/fon.svg) repeat;
+	box-shadow: 0 0 30px black;
+	position: relative;
+}
+.block {    
+	margin:15px 5px;
+    border: 3px solid gold;
+    background: #454545;
+    text-align: center;
+}
+.header	{
+	border: 1px solid #d8d8d8;
+	background: #a6a6a6;
+	margin: 0;
+	box-shadow: 0 0 30px black;
+	position: relative;
+	z-index: 5;
+}
+.new-month {
+	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;	  
+}
+.date {
+	padding-top: 15px;
+}
+.day .fa-stack-2x {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+  }
+.content {
+	display: table;
+	background: #fff;  
+	margin: 0px 5px 20px;
+	position: relative;
+	z-index: 2;
+	position: relative;	
+}
+.content img{
+	border: 1px solid #d8d8d8;
+	background: #a6a6a6;
+	display: block;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	box-shadow: 10px 10px 20px black;
+	float: left;
+	top: -10px;
+	left: -10px;
+}
+h1 {
+	font-family: Lobster;
+	color: gold;
+}
+h3 {
+	font-family: 'Lobster', cursive;
+	color: gold;
+}
+
+.footer	{
+	border-top: 3px solid gold;
+	background: #454545;
+	position: relative;
+	color: #fff;
+}
+/*Сетка Masonry*/
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
+.fancybox img{
+	border: 1px solid #454545 ;
+	background: #d8d8d8;
+	padding: 5px;
+	border-radius: 6px;
 }
